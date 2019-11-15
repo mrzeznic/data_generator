@@ -12,4 +12,8 @@ before install:
   - docker -it data_generator:latest bash
 
 script:
+<<<<<<< HEAD:.travis.yml
   - python take_class.py
+=======
+  - bundle exec rake test
+>>>>>>> d24b9839dabab97ac075ed420525d1dfc7685669:.travis.yml
