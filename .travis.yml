@@ -12,4 +12,4 @@ before install:
   - docker -it data_generator:latest bash
 
 script:
-  - bundle exec rake test
+  - python take_class.py
