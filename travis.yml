@@ -1,0 +1,15 @@
+ 
+sudo: required
+
+language: python
+
+service:
+  - docker
+
+before install:
+  - docker build -t mrzeznic/data_generator .
+  - docker ps -a
+  - docker -it data_generator:latest bash
+
+script:
+  - bundle exec rake test
