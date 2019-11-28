@@ -1,8 +1,9 @@
 ## TO DO
 - [x] phone number
-- [] address
-- [] city
+- [x] address
+- [x] city
 - [] cost
 - [] date
 - [] product
 - [] deployment script (to chosen database)
+- [] tests
